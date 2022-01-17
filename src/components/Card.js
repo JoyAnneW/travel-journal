@@ -1,10 +1,9 @@
 import React from "react";
 
 export default function Card(props) {
-	console.log(props.imageUrl);
 	return (
 		<main className="card">
-			<img src={props.imageUrl} alt={props.title} className="card--img" />
+			<img src={props.imagePath} alt={props.title} className="card--img" />
 			<div className="card__details">
 				<i class="fas fa-map-marker-alt"></i>
 				<span className="card__details--country">{props.location}</span>
