@@ -28,3 +28,34 @@ body {
 	line-height: 18px;
 	font-weight: 500;
 }
+.card {
+	display: flex;
+	gap: 20px;
+	color: #2b283a;
+	margin: 80px;
+}
+.card--img {
+	border-radius: 10px;
+}
+.card__details {
+}
+
+.card__details i {
+	color: #f55a5a;
+}
+
+.card__details--country {
+	letter-spacing: 17%;
+	text-transform: uppercase;
+}
+.card__details--map {
+	color: #918e9b;
+}
+.card__details--title {
+	font-weight: 700;
+}
+.card__details--dates {
+	font-weight: 700;
+}
+.card__details--text {
+}
